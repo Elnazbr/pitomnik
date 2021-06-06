@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content=""/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<header>
@@ -33,10 +34,10 @@
 		<div class="form-inner">
 			<h3>Написать нам</h3>
 			<input type="text" placeholder="Фамилия и имя">
-			<input type="email" placeholder="Ваша почта">
-			<input type="number" placeholder="Номер телефона">
+			<input type="text" placeholder="Ваша почта" id="email">
+			<input type="text" placeholder="Номер телефона" id="number">
 			<textarea placeholder="Сообщение..." rows="3"></textarea>
-			<input type="submit" value="Отправить">
+			<button type = "button" name = "button1" onClick="clickButton();">Отправить</button><br><br>
 		</div>
 	</form>
 	<footer>
